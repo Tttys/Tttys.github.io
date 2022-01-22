@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - 影集: "http://127.0.0.1:4000/photorama/gallery/"  
+  - 影集: "tttys.github.io/gallery/"  
   # - JOURNAL: "http://127.0.0.1:4000/photorama/journal/"
-  - 關於: "http://127.0.0.1:4000/photorama/about/"
+  - 關於: "tttys.github.io/about/"
 
 # All translation keys
 translations:
