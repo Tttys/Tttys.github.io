@@ -1,8 +1,8 @@
 # Site settings
 title: Heterogeneous Imaging
 email: ""
-description: "Photo Journal"
-url: "http://127.0.0.1:4000/photorama/"
+description: "Albums"
+url: "www.tttys.github.io/"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -18,7 +18,7 @@ owner:
   name:   Heterogeneous Imaging
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: ---
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -34,7 +34,6 @@ comments :
 # Internal nav
 nav:
   - 影集: "tttys.github.io/gallery/"  
-  # - JOURNAL: "http://127.0.0.1:4000/photorama/journal/"
   - 關於: "tttys.github.io/about/"
 
 # All translation keys
@@ -53,7 +52,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
+permalink: "/photorama"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 gems: 
