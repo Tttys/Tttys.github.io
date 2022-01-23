@@ -2,7 +2,7 @@
 title: Heterogeneous Imaging
 email: ""
 description: "Albums"
-url: "www.tttys.github.io/"
+url: "https://tttys.github.io/"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -33,8 +33,8 @@ comments :
 
 # Internal nav
 nav:
-  - 影集: "tttys.github.io/gallery/"  
-  - 關於: "tttys.github.io/about/"
+  - 影集: "/gallery/"  
+  - 關於: "/about/"
 
 # All translation keys
 translations:
