@@ -62,10 +62,13 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-paginate_path: "/journal/page:num/"
+paginate_path: ""
+# paginate_path: "/journal/page:num/"
 permalink: ""
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
+categories_path: ""
+# categories_path: "/journal/category/"
+tags_path: ""
+# tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
