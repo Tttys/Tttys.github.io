@@ -45,8 +45,8 @@ comments :
 
 # Internal nav
 nav:
-  - 影集: "https://Tttys.github.io/Tttys.github.io/gallery/"  
-  - 關於: "https://Tttys.github.io/Tttys.github.io/about/"
+  - 影集: "gallery/"  
+  - 關於: "about/"
 
 # All translation keys
 translations:
