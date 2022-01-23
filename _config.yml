@@ -44,8 +44,8 @@ comments :
 
 # Internal nav
 nav:
-  - 影集: "photorama/gallery/"  
-  - 關於: "photorama/about/"
+  - 影集: "gallery/"  
+  - 關於: "about/"
 
 # All translation keys
 translations:
