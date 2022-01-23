@@ -14,7 +14,7 @@ title: Heterogeneous Imaging
 email: ""
 description: "Albums"
 url: "https://tttys.github.io/"
-baseurl: ""
+baseurl: "/Tttys.github.io"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -44,8 +44,8 @@ comments :
 
 # Internal nav
 nav:
-  - 影集: "gallery/"  
-  - 關於: "about/"
+  - 影集: "https://tttys.github.io/Tttys.github.io/gallery/"  
+  - 關於: "https://tttys.github.io/Tttys.github.io/about/"
 
 # All translation keys
 translations:
