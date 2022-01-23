@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: [/Tttys.github.io]
+source: DIR
 incremental: false
 highlighter: rouge
 gist:
