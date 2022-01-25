@@ -4,9 +4,11 @@ main-title: "記錄光線"
 subtitle: ""
 description: ""
 images:
- - image_path: /img/slider/bg.jpg
+ - image_path: /img/slider/bg-1.jpg
    gallery-folder: /img/slider/
- - image_path: /img/slider/bg2.jpg
+ - image_path: /img/slider/bg-2.jpg
+   gallery-folder: /img/slider/
+ - image_path: /img/slider/bg-3.jpg
    gallery-folder: /img/slider/
 ---
 
