@@ -1,3 +1,4 @@
 # Content
 
-this is my personal website, I will publish my photos
+This is my personal photography website, I will publish my photos here.
+
