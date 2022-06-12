@@ -108,7 +108,7 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -363,7 +363,7 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
@@ -375,7 +375,7 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   }
 .pager .disabled > a,
 .pager .disabled > a:hover,
