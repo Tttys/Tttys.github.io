@@ -381,7 +381,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #808080;
+  color: #ffffff;
   background-color: #404040;
   cursor: not-allowed;
 }
@@ -407,6 +407,6 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 .fa-stack-2x {
- color: black;
+ color: rgb(255, 255, 255);
 }
 
