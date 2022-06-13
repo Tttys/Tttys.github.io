@@ -5,51 +5,51 @@ description: "這裏陳列著所有的照片"
 active: gallery
 header-img: "img/photo-bg.jpeg"
 images:
- - image_path: /gallery/albums/DSC_5144.jpeg
+ - image_path: https://s2.loli.net/2022/03/16/DFHxCWsK4Am7pZ1.jpg
    gallery-folder: /gallery/gallery01/
    gallery-name: 上海晝
    gallery-date: 2021
- - image_path: /gallery/albums/DSC_4684.jpeg
+ - image_path: https://s2.loli.net/2022/03/16/Yhbqi5KegTwLcU8.jpg
    gallery-folder: /gallery/gallery02/
    gallery-name: 上海夜
    gallery-date: 2021
- - image_path: /gallery/albums/IMG_8684.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/GHwxpegAlcdREJ8.jpg
    gallery-folder: /gallery/gallery03/
    gallery-name: 肖像
    gallery-date: 2021
- - image_path: /gallery/albums/DSC_6221.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/6aIuByZQwMot3Cz.jpg
    gallery-folder: /gallery/gallery04/
    gallery-name: 虛構成像
    gallery-date: 2021
- - image_path: /gallery/albums/IMAG0278_1.jpg
+ - image_path: https://s2.loli.net/2022/03/17/lsfMh5SPAkJLqXe.jpg
    gallery-folder: /gallery/gallery05/
    gallery-name: 線
    gallery-date: 2018
- - image_path: /gallery/albums/DSC_7157.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/f5cNiHjxbKelVRk.jpg
    gallery-folder: /gallery/gallery06/
    gallery-name: 遺忘
    gallery-date: 2022
- - image_path: /gallery/albums/IMG_9369.jpg
+ - image_path: https://s2.loli.net/2022/03/17/ZmUVfQzjEryJATI.jpg
    gallery-folder: /gallery/gallery07/
    gallery-name: 貓
    gallery-date: 2018
- - image_path: /gallery/albums/DSC_7403.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/yG29pJk5mbfAXso.jpg
    gallery-folder: /gallery/gallery08/
    gallery-name: 褪色
    gallery-date: 2022
- - image_path: /gallery/albums/DSC_9153.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/Gb4pN5UYAJTrfx9.jpg
    gallery-folder: /gallery/gallery09/
    gallery-name: 山水
    gallery-date: 2022
- - image_path: /gallery/albums/DSC_8262.jpeg
+ - image_path: https://s2.loli.net/2022/03/17/lFu27cqk9Vg8Zj5.jpg
    gallery-folder: /gallery/gallery10/
    gallery-name: 晴天
    gallery-date: 2021
- - image_path: /gallery/albums/DSC_8262.jpeg
+ - image_path: https://s2.loli.net/2022/06/13/4XDxp3JY9agvSj6.jpg
    gallery-folder: /gallery/gallery11/
    gallery-name: 氤氳
    gallery-date: 2022
- - image_path: /gallery/albums/DSC_8262.jpeg
+ - image_path: https://s2.loli.net/2022/06/13/ZSPoWvLJ7GmyhtO.jpg
    gallery-folder: /gallery/gallery12/
    gallery-name: 南海神廟
    gallery-date: 2022
@@ -79,8 +79,10 @@ images:
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
 		       
+<!-- <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a> -->
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<img src="{{ image.image_path }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
